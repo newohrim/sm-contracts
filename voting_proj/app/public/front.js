@@ -2,7 +2,7 @@ async function create_vote(evt)
 {
   console.log("clicked");
   
-  const response = await fetch("http://127.0.0.1:8080/", {
+  const response = await fetch("http://localhost:8080/create_vote", {
 	method: 'POST',
 	headers: {
 	'Accept': 'application/json',
